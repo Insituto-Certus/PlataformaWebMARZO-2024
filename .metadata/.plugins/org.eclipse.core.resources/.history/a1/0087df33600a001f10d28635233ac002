@@ -1,0 +1,7 @@
+package certus.edu.pe.modelo;
+
+import java.io.Serializable;
+
+public class Pelicula implements Serializable {
+
+}

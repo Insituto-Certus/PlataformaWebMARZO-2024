@@ -1,0 +1,25 @@
+package certus.edu.pe.controladores;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import certus.edu.pe.servicios.PeliculasServicio;
+
+@Controller
+@RequestMapping("/peliculas")
+public class PeliculaWebController {
+	
+	// Inyección de dependencias a la capa de servicio
+	@Autowired
+	private PeliculasServicio servicio;
+	
+	
+	public String listarPeliculas(Model model) {
+		List<Pelicula> listaPeliculas = servicio.buscarTodo()
+	}
+	
+	
+	
+
+}

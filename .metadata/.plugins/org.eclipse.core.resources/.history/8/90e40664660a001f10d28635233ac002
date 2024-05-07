@@ -1,0 +1,43 @@
+package certus.edu.pe.modelo;
+
+import java.io.Serializable;
+
+import javax.persistence.Basic;
+import javax.persistence.Column;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+public class Pelicula implements Serializable {
+
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Basic(optional = false) // este campo es obligatorio
+	@Column(name = "idpelicula")
+	private Integer idPelicula;
+	
+	@Basic(optional= false) // este campo es obligatorio
+	@Column(name="nombre")
+	private String nombre;
+	
+	@Column(name = "duracion")
+	private String duracion;
+	
+	@Column(name = "clasificacion")
+	private String clasificacion;
+	
+	@Column(name = "idioma")
+	private String idioma;
+	
+	@Column(name = "genero")
+	private String genero;
+	
+	@Column(name = "formato")
+	private String formato;
+	
+	@Column(name = "synopis")
+	private String synopis;
+	
+	
+}
