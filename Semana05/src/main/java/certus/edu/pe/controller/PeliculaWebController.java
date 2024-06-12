@@ -19,7 +19,7 @@ import certus.edu.pe.servicios.PeliculaServicio;
 @RequestMapping("/peliculas")
 public class PeliculaWebController {
 
-	@Autowired
+	@Autowired // inyección de dependencia
 	private PeliculaServicio servicio;
 	
 	@RequestMapping("/listarTodo")
