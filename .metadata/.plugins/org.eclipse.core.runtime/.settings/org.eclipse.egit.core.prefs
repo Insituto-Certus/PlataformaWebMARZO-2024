@@ -1,2 +1,4 @@
+GitRepositoriesView.GitDirectories=D\:\\CERTUS 2024 -I\\Plataforma WEB\\Workspace Certus\\.git;D\:\\IDAT 2022\\Desarrollo Avanzado de Aplicaciones 2 Martes\\DAA2-MARTES-2022-I\\.git;D\:\\CERTUS 2024 -I\\Plataforma WEB\\thymeleaf\\.git;
+GitRepositoriesView.GitDirectories.relative=.git;D\:\\IDAT 2022\\Desarrollo Avanzado de Aplicaciones 2 Martes\\DAA2-MARTES-2022-I\\.git;D\:\\CERTUS 2024 -I\\Plataforma WEB\\thymeleaf\\.git;
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1
